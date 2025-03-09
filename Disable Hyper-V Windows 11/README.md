@@ -54,7 +54,7 @@ dism /online /disable-feature /featurename:microsoft-hyper-v-all
 ```
 Berikut Screenshot caranya:
 
-1️⃣![SS7](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss7.png" style="width: 50%; height: 50%;">
 
 <br>
 
@@ -66,7 +66,7 @@ get-netadapter|where-object {$_.interfacedescription -like "*hyper-v*"}|Disable-
 ```
 Berikut Screenshot caranya:
 
-1️⃣![SS8](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss8.png" style="width: 50%; height: 50%;">
 
 <br>
 
@@ -78,7 +78,7 @@ Ini adalah cara yang paling ampuh disaya, setelah melakukan cara ini akhirnya hy
 1️⃣ Klik kanan tombol Start dan pilih Run.
 
 2️⃣ Ketik regedit dan tekan Enter.
-![SS9](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="/Disable Hyper-V Windows 11/screenshot/ss9.png" style="width: 50%; height: 50%;">
 
 3️⃣ Pada Search Bar cari ini dan tekan Enter.
 ```bash
@@ -88,7 +88,7 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard
 4️⃣ Klik kanan pada layar, Klik new ➡️ DWORD (32-bit) Value dan beri nama EnableVirtualizationBasedSecurity .
 
 5️⃣ Klik dua kali pada Nilai DWORD baru yang Anda buat, atur data nilainya ke 0, dan klik tombol OK.
-![SS10](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="/Disable Hyper-V Windows 11/screenshot/ss10.png" style="width: 50%; height: 50%;">
 
 6️⃣ Selanjutnya klik Search Bar lagi cari ini dan tekan Enter.
 ```bash
@@ -97,11 +97,13 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
 7️⃣ Buat Nilai DWORD baru dan beri nama LsaCfgFlags .
 
 8️⃣ Anda dapat menonaktifkan Credential Guard dengan menetapkan nilai LsaCfgFlags ke 0.
-![SS11](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="/Disable Hyper-V Windows 11/screenshot/ss11.png" style="width: 50%; height: 50%;">
 
 9️⃣ Trakhir klik Search Bar lagi cari ini dan tekan Enter.
 ```bash
 Komputer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Skenario\HypervisorEnforcedCodeIntegrity
 ```
 🔟 Ubah value data dari Enabled DWORD dari 1 menjadi 0 untuk disable memory isolation.
-![SS12](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="/Disable Hyper-V Windows 11/screenshot/ss12.png" style="width: 50%; height: 50%;">
+
+Silahkan coba direstart lagi
