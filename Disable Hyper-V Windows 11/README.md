@@ -1,8 +1,9 @@
-
 # Cara Disable Hyper-V di Windows 11 Works
 
 Ini saya buat karena saya kesal, sangat sulit sekali mendisable hyper-v, saya ingin menginstal gns3 vm/pnet lab pada vm ware, tapi selau ada popup "Virtualized Intel-VT-x/EPT Is Not Supported on This Platform", dan caranya membenarkannya adalah dengan menonaktifkan hyper-v dan mengaktfikan virtualisasi pada bios, tapi disini saya hanya kasih tutor untuk menonaktifkan hyper-v sampe akar2nya...btw saya sampe install ulang windows hanya karna Ini....
-
+<br>
+Untuk mengatasi ini ➡️ </p>1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ini.png" style="width: 50%; height: 50%;">
+<br>
 ## CARA KE1
 #### Dari Control Panel
 
