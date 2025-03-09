@@ -12,7 +12,7 @@ Berikut Screenshot caranya:
 
 </p>1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss1.png" style="width: 50%; height: 50%;">
 
-</p>2️⃣<img src="/screenshot/ss2.png" style="width: 50%; height: 50;">
+</p>2️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss2.png" style="width: 50%; height: 50;">
 
 ##### NOTE: kalo masih gag bisa lanjut ke cara ke2 dan seterusnya...
 
@@ -26,9 +26,9 @@ bcdedit /set hypervisorlaunchtype off
 ```
 Berikut Screenshot caranya:
 
-</p>1️⃣<img src="/screenshot/ss3.png" style="width: 50%; height: 50%;">
+</p>1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss3.png" style="width: 50%; height: 50%;">
 
-</p>2️⃣<img src="/screenshot/ss4.png" style="width: 50%; height: 50%;">
+</p>2️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss4.png" style="width: 50%; height: 50%;">
 
 
 ## CARA KE3
@@ -40,9 +40,9 @@ Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor
 ```
 Berikut Screenshot caranya:
 
-</p>1️⃣<img src="/screenshot/ss5.png" style="width: 50%; height: 50%;">
+</p>1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss5.png" style="width: 50%; height: 50%;">
 
-</p>2️⃣<img src="/screenshot/ss6.png" style="width: 50%; height: 50%;">
+</p>2️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss6.png" style="width: 50%; height: 50%;">
 
 `
 `
