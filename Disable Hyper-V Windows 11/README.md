@@ -12,7 +12,7 @@ Berikut Screenshot caranya:
 
 </p>1️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss1.png" style="width: 50%; height: 50%;">
 
-</p>2️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss2.png" style="width: 50%; height: 50;">
+</p>2️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss2.png" style="width: 50%; height: 50%;">
 
 ##### NOTE: kalo masih gag bisa lanjut ke cara ke2 dan seterusnya...
 
