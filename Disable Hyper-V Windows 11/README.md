@@ -44,8 +44,7 @@ Berikut Screenshot caranya:
 
 </p>2️⃣<img src="/Disable Hyper-V Windows 11/screenshot/ss6.png" style="width: 50%; height: 50%;">
 
-`
-`
+<br>
 
 <br>
 
@@ -56,6 +55,8 @@ dism /online /disable-feature /featurename:microsoft-hyper-v-all
 Berikut Screenshot caranya:
 
 1️⃣![SS7](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<br>
 
 <br>
 
