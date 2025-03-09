@@ -6,7 +6,7 @@ Ini saya buat karena saya kesal, sangat sulit sekali mendisable hyper-v, saya in
 
 <br>
 
-Untuk mengatasi ini ➡️ <img src="/Disable Hyper-V Windows 11/screenshot/ini.png" style="width: 50%; height: 50%;">
+Untuk mengatasi ini ⬇️<br> <img src="/Disable Hyper-V Windows 11/screenshot/ini.png" style="width: 50%; height: 50%;">
 <br>
 ## CARA KE1
 #### Dari Control Panel
@@ -83,7 +83,6 @@ Ini adalah cara yang paling ampuh disaya, setelah melakukan cara ini akhirnya hy
 1️⃣ Klik kanan tombol Start dan pilih Run.
 
 2️⃣ Ketik regedit dan tekan Enter.<br>
-
 <img src="/Disable Hyper-V Windows 11/screenshot/ss9.png" style="width: 50%; height: 50%;">
 
 3️⃣ Pada Search Bar cari ini dan tekan Enter.
